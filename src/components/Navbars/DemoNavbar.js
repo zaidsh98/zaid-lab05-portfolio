@@ -108,13 +108,13 @@ class DemoNavbar extends React.Component {
                     </Col>
                   </Row>
                 </div>
-                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                {/* <Nav className="navbar-nav-hover align-items-lg-center" navbar>
+                  <UncontrolledDropdown nav> */}
+                    {/* <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Components</span>
-                    </DropdownToggle>
-                    <DropdownMenu className="dropdown-menu-xl">
+                    </DropdownToggle> */}
+                    {/* <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
@@ -171,10 +171,10 @@ class DemoNavbar extends React.Component {
                           </Media>
                         </Media>
                       </div>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                    </DropdownMenu> */}
+                  {/* </UncontrolledDropdown>
+                  <UncontrolledDropdown nav> */}
+                    {/* <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Examples</span>
                     </DropdownToggle>
@@ -193,7 +193,7 @@ class DemoNavbar extends React.Component {
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                </Nav>
+                </Nav> */}
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
                     <NavLink
@@ -246,7 +246,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/zaidsh98"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -259,7 +259,7 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  {/* <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
@@ -273,7 +273,7 @@ class DemoNavbar extends React.Component {
                         Download
                       </span>
                     </Button>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </UncontrolledCollapse>
             </Container>
